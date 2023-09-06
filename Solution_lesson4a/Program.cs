@@ -2,17 +2,17 @@
 
 Console.WriteLine("Enter the initial value: ");
 
-double initial_value = Convert.ToDouble(Console.ReadLine());
+int initial_value = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("Enter the final value: ");
 
-double final_value = Convert.ToDouble(Console.ReadLine());
+int final_value = Convert.ToInt32(Console.ReadLine());
 
-double result = 0;
+int result = 0;
 
-double result1 = 0;
+int result1 = 0;
 
-for (double i = initial_value; i <= final_value; i++)
+for (int i = initial_value; i <= final_value; i++)
 {
     if ((i % 2) != 0)
     {
